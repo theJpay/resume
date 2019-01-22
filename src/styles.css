@@ -1,0 +1,22 @@
+@import './../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+  font-family: Belinda;
+  src: url(assets/fonts/Belinda.otf);
+}
+
+@font-face {
+  font-family: Giveny;
+  src: url(assets/fonts/Giveny.otf);
+}
+
+body {
+  height: 300vh;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a.nav-link {
+    outline: 0;
+}
