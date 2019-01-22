@@ -1,0 +1,39 @@
+.background {
+  background: url(../../assets/micaela-parente-712451-unsplash.jpg) no-repeat
+    center bottom fixed;
+  height: 100vh;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 250%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: -195%;
+  transform: translate(-50%, -50%);
+}
+
+.scroll-up {
+  position: absolute;
+  left: 50%;
+  bottom: -115%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow-white {
+  color: white;
+  text-decoration: none;
+  outline: 0;
+}

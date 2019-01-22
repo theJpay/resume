@@ -1,0 +1,60 @@
+#AboutMe {
+  height: 100vh;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about,
+.skills {
+  padding: 1em 2em;
+}
+
+.about p {
+  text-align: justify;
+}
+
+#PersonalInfos {
+  font-size: 0.8rem;
+}
+
+.skills {
+  color: #666666;
+}
+
+.progress {
+  height: 0.4em;
+}
+
+.progress-bar {
+  background-color: #666666;
+}
+
+.col-xs-6 {
+  border: solid pink 2px;
+}
+
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: -95%;
+  transform: translate(-50%, -50%);
+}
+
+.scroll-up {
+  position: absolute;
+  left: 50%;
+  bottom: -15%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow-black {
+  color: black;
+  text-decoration: none;
+  outline: 0;
+}

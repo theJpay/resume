@@ -1,4 +1,5 @@
-@import './../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import "./../node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "./../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
 @font-face {
   font-family: Belinda;
@@ -17,6 +18,13 @@ body {
   scroll-behavior: smooth;
 }
 
+.black-skin {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
 a.nav-link {
-    outline: 0;
+  outline: 0;
 }

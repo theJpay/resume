@@ -7,9 +7,11 @@ import { HeaderComponent } from "./header/header.component";
 import { BsDropdownModule } from "ngx-bootstrap/dropdown";
 import { TooltipModule } from "ngx-bootstrap/tooltip";
 import { ModalModule } from "ngx-bootstrap/modal";
+import { AboutmeComponent } from './aboutme/aboutme.component';
+import { FencingComponent } from './fencing/fencing.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent],
+  declarations: [AppComponent, HeaderComponent, AboutmeComponent, FencingComponent],
   imports: [
     BrowserModule,
     BsDropdownModule.forRoot(),

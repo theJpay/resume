@@ -2,6 +2,7 @@
   background: url(../../assets/rawpixel-550994-unsplash.jpg) no-repeat center
     center fixed;
   height: 100vh;
+  width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,7 +12,7 @@
 }
 
 .navbar-transparent .nav-link {
-  color: white !important;
+  color: white;
 }
 
 .navbar-light .nav-link {
@@ -19,7 +20,7 @@
 }
 
 .navbar-light {
-  transition: ease background-color 0.4s, ease height 1s;
+  transition: background-color 0.4s, height 1s;
 }
 
 .navbar-transparent {
@@ -70,17 +71,11 @@
   margin: 1em;
 }
 
-.black-skin {
-  height: 100%;
-  width: 100%;
-  background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.75);
-}
-
 .title {
   color: white !important;
   font-family: Giveny, "Times New Roman", Times, serif;
   text-align: center;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -102,4 +97,16 @@
 .title .belinda {
   font-size: 1.5em;
   font-family: Belinda, "Times New Roman", Times, serif;
+}
+
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow-down {
+  color: white;
+  text-decoration: none;
 }
