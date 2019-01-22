@@ -23,7 +23,7 @@ export class HeaderComponent implements OnInit {
       document.documentElement.scrollTop ||
       document.body.scrollTop ||
       0;
-    if (number > 0.1*window.innerHeight) {
+    if (number > 0.08*window.innerHeight) {
       this.asScrolled = true;
     } else {
       this.asScrolled = false;
