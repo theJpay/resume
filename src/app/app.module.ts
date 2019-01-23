@@ -9,9 +9,11 @@ import { TooltipModule } from "ngx-bootstrap/tooltip";
 import { ModalModule } from "ngx-bootstrap/modal";
 import { AboutmeComponent } from './aboutme/aboutme.component';
 import { FencingComponent } from './fencing/fencing.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, AboutmeComponent, FencingComponent],
+  declarations: [AppComponent, HeaderComponent, AboutmeComponent, FencingComponent, ExperienceComponent, EducationComponent],
   imports: [
     BrowserModule,
     BsDropdownModule.forRoot(),

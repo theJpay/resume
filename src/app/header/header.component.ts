@@ -10,7 +10,7 @@ declare const window: any;
   styleUrls: ["./header.component.css"]
 })
 export class HeaderComponent implements OnInit {
-  asScrolled: boolean = false;
+  background: boolean = false;
 
   constructor() {}
 
@@ -23,10 +23,13 @@ export class HeaderComponent implements OnInit {
       document.documentElement.scrollTop ||
       document.body.scrollTop ||
       0;
-    if (number > 0.08*window.innerHeight) {
-      this.asScrolled = true;
+    if (
+      (number >= 0.5 * window.innerHeight && number < 1.5 * window.innerHeight) ||
+      number >= 2.5 * window.innerHeight
+    ) {
+      this.background = true;
     } else {
-      this.asScrolled = false;
+      this.background = false;
     }
   }
 }

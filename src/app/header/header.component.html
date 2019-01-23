@@ -3,7 +3,7 @@
     <nav
       [class]="
         'navbar navbar-expand fixed-top' +
-        (asScrolled ? ' navbar-light bg-light' : ' navbar-transparent')
+        (background ? ' navbar-light bg-light' : ' navbar-transparent')
       "
     >
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -13,8 +13,8 @@
             <a class="nav-link" href="#AboutMe">About Me</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#Values">Values</a>
-            </li>
+            <a class="nav-link" href="#Values">Values</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#Experience">Experience</a>
           </li>
@@ -27,13 +27,9 @@
     <div class="title">
       <img src="assets/avatar.png" alt="Picture of myself" class="avatar" />
       <h1>Hi, I'm <span class="belinda">Jules Paris</span></h1>
-      <h4>Student at Centrale Nantes</h4>
     </div>
     <div class="scroll-down">
-      <a
-        href="#AboutMe"
-        class="arrow-down fas fa-arrow-circle-down fa-2x"
-      ></a>
+      <a href="#AboutMe" class="arrow-down fas fa-arrow-circle-down fa-2x"></a>
     </div>
   </div>
 </div>

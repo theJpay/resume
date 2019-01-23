@@ -1,0 +1,24 @@
+#Education {
+  height: 100vh;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.scroll-up {
+  position: absolute;
+  left: 50%;
+  bottom: -315%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow-black {
+  color: black;
+  text-decoration: none;
+  outline: 0;
+}
