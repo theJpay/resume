@@ -1,6 +1,6 @@
 .background {
   background: url(../../assets/micaela-parente-712451-unsplash.jpg) no-repeat
-    center bottom fixed;
+    center bottom;
   width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -45,6 +45,12 @@ p {
 @media (min-width: 768px) {
   .background {
     height: 100vh;
+    background: url(../../assets/micaela-parente-712451-unsplash.jpg) no-repeat
+      center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .content {
