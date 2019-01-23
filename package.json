@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:ghpages": "ng build --prod --base-href https://thejpay.github.io/resume/"
+    "build:ghpages": "ng build --prod --base-href https://thejpay.github.io/resume/",
+    "build:netlify": "ng build --prod"
   },
   "private": true,
   "dependencies": {
