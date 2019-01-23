@@ -274,10 +274,12 @@ ngx-bootstrap/positioning
 
 ngx-bootstrap/dropdown
 
-ngx-bootstrap/tooltip
+ngx-bootstrap/popover
 
 @angular/common
 MIT
+
+ngx-bootstrap/tooltip
 
 ngx-bootstrap/modal
 
