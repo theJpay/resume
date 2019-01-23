@@ -25,48 +25,12 @@
   transition: background-color 0.4s, height 1s;
 }
 
-.navbar-transparent .nav-link::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 0.15em;
-  background: white;
-  transition: width 0.3s;
-}
-
-.navbar-transparent .nav-link:hover::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 0.15em;
-  background: white;
-  transition: width 0.5s;
-}
-
-.navbar-light .nav-link::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 0.15em;
-  background: black;
-  transition: width 0.3s;
-}
-
-.navbar-light .nav-link:hover::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 0.15em;
-  background: black;
-  transition: width 0.5s;
-}
-
 .avatar {
   max-height: 150px;
   max-width: 150px;
   border-radius: 50%;
   background: white;
-  margin: 1em;
+  margin-bottom: 4em;
 }
 
 .title {
@@ -75,16 +39,10 @@
   text-align: center;
   width: 100%;
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-}
-
-.title h1 {
-  font-size: 4em;
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
 }
 
 .title .belinda {
@@ -92,15 +50,65 @@
   font-family: Belinda, "Times New Roman", Times, serif;
 }
 
-.scroll-down {
-  position: absolute;
-  left: 50%;
-  bottom: 5%;
-  transform: translate(-50%, -50%);
-}
+/*** For desktop ***/
+@media (min-width: 768px) {
+  .navbar-transparent .nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0.15em;
+    background: white;
+    transition: width 0.3s;
+  }
 
-.arrow-down {
-  color: white;
-  text-decoration: none;
-  outline: 0;
+  .navbar-transparent .nav-link:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.15em;
+    background: white;
+    transition: width 0.5s;
+  }
+
+  .navbar-light .nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0.15em;
+    background: black;
+    transition: width 0.3s;
+  }
+
+  .navbar-light .nav-link:hover::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.15em;
+    background: black;
+    transition: width 0.5s;
+  }
+  .avatar {
+    max-width: 175px;
+    max-height: 175px;
+    margin: 1em;
+  }
+
+  .title h1 {
+    font-size: 4em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+
+  .scroll-down {
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+  }
+
+  .arrow-down {
+    color: white;
+    text-decoration: none;
+    outline: 0;
+  }
 }

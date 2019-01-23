@@ -2,7 +2,7 @@
   <div class="black-skin-75">
     <nav
       [class]="
-        'navbar navbar-expand fixed-top' +
+        'navbar navbar-expand-md fixed-top d-none d-md-block' +
         (background ? ' navbar-light bg-light' : ' navbar-transparent')
       "
     >
@@ -26,9 +26,9 @@
     </nav>
     <div class="title">
       <img src="assets/avatar.png" alt="Picture of myself" class="avatar" />
-      <h1>Hi, I'm <span class="belinda">Jules Paris</span></h1>
+      <h1>Hi, I'm <span class="belinda font-weight-bold">Jules Paris</span></h1>
     </div>
-    <div class="scroll-down">
+    <div class="scroll-down d-none d-md-block">
       <a href="#AboutMe" class="arrow-down fas fa-arrow-circle-down fa-2x"></a>
     </div>
   </div>

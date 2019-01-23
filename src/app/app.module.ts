@@ -4,11 +4,6 @@ import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
 import { HeaderComponent } from "./header/header.component";
 
-import { BsDropdownModule } from "ngx-bootstrap/dropdown";
-import { TooltipModule } from "ngx-bootstrap/tooltip";
-import { ModalModule } from "ngx-bootstrap/modal";
-import { PopoverModule } from "ngx-bootstrap/popover";
-
 import { AboutmeComponent } from "./aboutme/aboutme.component";
 import { FencingComponent } from "./fencing/fencing.component";
 import { ExperienceComponent } from "./experience/experience.component";
@@ -25,10 +20,6 @@ import { EducationComponent } from "./education/education.component";
   ],
   imports: [
     BrowserModule,
-    BsDropdownModule.forRoot(),
-    PopoverModule.forRoot(),
-    TooltipModule.forRoot(),
-    ModalModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

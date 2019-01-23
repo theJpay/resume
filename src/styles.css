@@ -18,10 +18,7 @@
 
 body {
   font-family: Poly, "Times New Roman", Times, serif;
-  height: 100vh;
-  overflow: hidden;
   padding: 0;
-  scroll-behavior: smooth;
 }
 
 .black-skin-75 {
@@ -40,4 +37,12 @@ body {
 
 a.nav-link {
   outline: 0;
+}
+
+@media (min-width: 768px) {
+  body {
+    height: 100vh;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
 }

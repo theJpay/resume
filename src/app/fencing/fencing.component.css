@@ -1,7 +1,6 @@
 .background {
   background: url(../../assets/micaela-parente-712451-unsplash.jpg) no-repeat
     center bottom fixed;
-  height: 100vh;
   width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -13,53 +12,74 @@
 
 .content {
   width: 100%;
-  position: absolute;
-  top: 250%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
-.content h2 {
+.carousel-item {
+  min-height: 20em;
+}
+
+h2 {
   color: white;
   font-family: Giveny, "Times New Roman", Times, serif;
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: center;
 }
 
-.content h3 {
-  color: white;
-  font-family: Giveny, "Times New Roman", Times, serif;
-  font-size: 1.9em;
-  text-align: center;
-}
-
-.content h4 {
+h3 {
   color: white;
   font-family: Giveny, "Times New Roman", Times, serif;
   text-align: center;
 }
 
-.content p {
+h4 {
+  color: white;
+  font-family: Giveny, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+p {
   color: white;
   text-align: justify;
 }
 
-.scroll-down {
-  position: absolute;
-  left: 50%;
-  bottom: -195%;
-  transform: translate(-50%, -50%);
-}
+/*** For desktop ***/
+@media (min-width: 768px) {
+  .background {
+    height: 100vh;
+  }
 
-.scroll-up {
-  position: absolute;
-  left: 50%;
-  bottom: -115%;
-  transform: translate(-50%, -50%);
-}
+  .content {
+    position: absolute;
+    top: 250%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
-.arrow-white {
-  color: white;
-  text-decoration: none;
-  outline: 0;
+  .content h2 {
+    font-size: 3em;
+  }
+
+  .content h3 {
+    font-size: 1.9em;
+  }
+
+  .scroll-down {
+    position: absolute;
+    left: 50%;
+    bottom: -195%;
+    transform: translate(-50%, -50%);
+  }
+
+  .scroll-up {
+    position: absolute;
+    left: 50%;
+    bottom: -115%;
+    transform: translate(-50%, -50%);
+  }
+
+  .arrow-white {
+    color: white;
+    text-decoration: none;
+    outline: 0;
+  }
 }
