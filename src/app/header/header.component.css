@@ -7,8 +7,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  margin: 0;
-  padding: 0;
 }
 
 .navbar-transparent .nav-link {
@@ -109,4 +107,5 @@
 .arrow-down {
   color: white;
   text-decoration: none;
+  outline: 0;
 }

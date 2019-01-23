@@ -18,6 +18,32 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.content h2 {
+  color: white;
+  font-family: Giveny, "Times New Roman", Times, serif;
+  font-size: 3em;
+  text-align: center;
+}
+
+.content h3 {
+  color: white;
+  font-family: Giveny, "Times New Roman", Times, serif;
+  font-size: 1.9em;
+  text-align: center;
+}
+
+.content h4 {
+  color: white;
+  font-family: Giveny, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.content p {
+  color: white;
+  text-align: justify;
+}
+
 .scroll-down {
   position: absolute;
   left: 50%;

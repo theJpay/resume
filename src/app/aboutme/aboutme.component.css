@@ -23,8 +23,8 @@
   font-size: 0.8rem;
 }
 
-.skills {
-  color: #666666;
+#AboutMe {
+  color: #444444;
 }
 
 .progress {
@@ -33,10 +33,6 @@
 
 .progress-bar {
   background-color: #666666;
-}
-
-.col-xs-6 {
-  border: solid pink 2px;
 }
 
 .scroll-down {
