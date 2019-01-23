@@ -266,22 +266,8 @@ Apache-2.0
 @angular/core
 MIT
 
-ngx-bootstrap/utils
-
-ngx-bootstrap/component-loader
-
-ngx-bootstrap/positioning
-
-ngx-bootstrap/dropdown
-
-ngx-bootstrap/popover
-
 @angular/common
 MIT
-
-ngx-bootstrap/tooltip
-
-ngx-bootstrap/modal
 
 @angular/platform-browser
 MIT
