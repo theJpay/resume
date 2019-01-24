@@ -1,6 +1,6 @@
 .background {
-  background: url(../../assets/micaela-parente-712451-unsplash.jpg) no-repeat
-    center bottom;
+  background: url(../../assets/micaela-parente-712451-unsplash-small.jpg)
+    no-repeat center bottom;
   width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -42,11 +42,11 @@ p {
 }
 
 /*** For desktop ***/
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .background {
     height: 100vh;
-    background: url(../../assets/micaela-parente-712451-unsplash.jpg) no-repeat
-      center bottom fixed;
+    background: url(../../assets/micaela-parente-712451-unsplash-small.jpg)
+      no-repeat center bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -68,6 +68,10 @@ p {
     font-size: 1.9em;
   }
 
+  .fas {
+    font-size: 1.33em;
+  }
+
   .scroll-down {
     position: absolute;
     left: 50%;
@@ -86,5 +90,20 @@ p {
     color: white;
     text-decoration: none;
     outline: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .background {
+    background: url(../../assets/micaela-parente-712451-unsplash.jpg) no-repeat
+      center bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .fas {
+    font-size: 2em;
   }
 }
