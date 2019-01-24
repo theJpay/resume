@@ -1,3 +1,7 @@
+#Values {
+  color: white;
+}
+
 .background {
   background: url(../../assets/micaela-parente-712451-unsplash-small.jpg)
     no-repeat center bottom;
@@ -17,26 +21,22 @@
 }
 
 h2 {
-  color: white;
   font-family: Giveny, "Times New Roman", Times, serif;
   font-size: 2.5em;
   text-align: center;
 }
 
 h3 {
-  color: white;
   font-family: Giveny, "Times New Roman", Times, serif;
   text-align: center;
 }
 
 h4 {
-  color: white;
   font-family: Giveny, "Times New Roman", Times, serif;
   text-align: center;
 }
 
 p {
-  color: white;
   text-align: justify;
 }
 
