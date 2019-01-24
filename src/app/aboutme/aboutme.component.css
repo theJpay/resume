@@ -19,6 +19,19 @@
   font-size: 0.8rem;
 }
 
+.network a {
+  color: inherit;
+  text-decoration: 0;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.network a:hover {
+  color: white;
+  text-decoration: 0;
+  background-color: #444444;
+  transition: background-color 0.5s, color 0.5s;
+}
+
 .progress {
   height: 0.4em;
 }
@@ -40,8 +53,8 @@
     transform: translate(-50%, -50%);
   }
 
-  .fas {
-    font-size: 1.33em;
+  .network {
+    text-align: center;
   }
 
   .scroll-down {
@@ -60,13 +73,14 @@
 
   .arrow-black {
     color: black;
+    font-size: 1.33em;
     text-decoration: none;
     outline: 0;
   }
 }
 
 @media (min-width: 1200px) {
-  .fas {
+  .arrow-black {
     font-size: 2em;
   }
 }

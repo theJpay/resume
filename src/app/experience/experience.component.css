@@ -1,14 +1,30 @@
+#Experience {
+  color: #444444;
+}
+
+.timeline-badge {
+  color: #444444;
+}
+
 @media (min-width: 992px) {
   #Experience {
     height: 100vh;
   }
 
   .content {
+    height: 70%;
+    overflow-y: auto;
+    scrollbar-width: none;
+    /* scrollbar-width: thin; */
     width: 100%;
     position: absolute;
-    top: 150%;
+    top: 350%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -49%);
+  }
+
+  .content::-webkit-scrollbar {
+    display: none;
   }
 
   .fas {
