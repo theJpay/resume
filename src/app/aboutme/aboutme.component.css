@@ -1,5 +1,5 @@
 #AboutMe {
-  color: #444444;
+  color: #222222;
 }
 
 .content {
@@ -28,7 +28,7 @@
 .network a:hover {
   color: white;
   text-decoration: 0;
-  background-color: #444444;
+  background-color: #222222;
   transition: background-color 0.5s, color 0.5s;
 }
 
@@ -72,7 +72,7 @@
   }
 
   .arrow-black {
-    color: black;
+    color: #222222;
     font-size: 1.33em;
     text-decoration: none;
     outline: 0;
