@@ -1,11 +1,6 @@
 #Values {
-  color: white;
-}
-
-.background {
   background: url(../../assets/micaela-parente-712451-unsplash-small.jpg)
     no-repeat center bottom;
-  width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,11 +8,11 @@
 }
 
 .content {
-  width: 100%;
+  color: white;
 }
 
 .carousel-item {
-  min-height: 20em;
+  min-height: 25em;
 }
 
 h2 {
@@ -42,21 +37,18 @@ p {
 
 /*** For desktop ***/
 @media (min-width: 992px) {
-  .background {
+  #Values {
     height: 100vh;
-    background: url(../../assets/micaela-parente-712451-unsplash-small.jpg)
-      no-repeat center bottom fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
   }
 
   .content {
-    position: absolute;
-    top: 250%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 50%;
+    transform: translate(0, -48%);
+    max-height: 75%;
+    overflow: auto;
+    scrollbar-width: thin;
+    font-size: 0.75em;
   }
 
   .content h2 {
@@ -67,42 +59,48 @@ p {
     font-size: 1.9em;
   }
 
-  .fas {
-    font-size: 1.33em;
+  .scroll-up {
+    position: absolute;
+    left: 50%;
+    bottom: -114%;
+    transform: translate(-50%, -50%);
   }
 
   .scroll-down {
     position: absolute;
     left: 50%;
-    bottom: -195%;
-    transform: translate(-50%, -50%);
-  }
-
-  .scroll-up {
-    position: absolute;
-    left: 50%;
-    bottom: -115%;
+    bottom: -198%;
     transform: translate(-50%, -50%);
   }
 
   .arrow-white {
     color: white;
+    font-size: 1.33em;
     text-decoration: none;
     outline: 0;
   }
 }
-
 @media (min-width: 1200px) {
-  .background {
+  #Values {
     background: url(../../assets/micaela-parente-712451-unsplash.jpg) no-repeat
-      center bottom fixed;
+      center bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
   }
 
-  .fas {
+  .content {
+    font-size: 1em;
+  }
+
+  .arrow-white {
+    font-size: 1.75em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .arrow-white {
     font-size: 2em;
   }
 }

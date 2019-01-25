@@ -1,9 +1,5 @@
-#AboutMe {
-  color: #222222;
-}
-
 .content {
-  width: 100%;
+  color: #222222;
 }
 
 .about,
@@ -16,18 +12,18 @@
 }
 
 #PersonalInfos {
-  font-size: 0.8rem;
+  font-size: 0.8em;
 }
 
 .network a {
   color: inherit;
-  text-decoration: 0;
+  text-decoration: none;
   transition: background-color 0.5s, color 0.5s;
 }
 
 .network a:hover {
   color: white;
-  text-decoration: 0;
+  text-decoration: none;
   background-color: #222222;
   transition: background-color 0.5s, color 0.5s;
 }
@@ -47,27 +43,30 @@
   }
 
   .content {
-    position: absolute;
-    top: 150%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 50%;
+    transform: translate(0, -48%);
+    max-height: 75%;
+    overflow: auto;
+    scrollbar-width: thin;
+    font-size: 0.75em;
   }
 
   .network {
     text-align: center;
   }
 
-  .scroll-down {
-    position: absolute;
-    left: 50%;
-    bottom: -95%;
-    transform: translate(-50%, -50%);
-  }
-
   .scroll-up {
     position: absolute;
     left: 50%;
-    bottom: -15%;
+    bottom: -14%;
+    transform: translate(-50%, -50%);
+  }
+
+  .scroll-down {
+    position: absolute;
+    left: 50%;
+    bottom: -98%;
     transform: translate(-50%, -50%);
   }
 
@@ -80,6 +79,16 @@
 }
 
 @media (min-width: 1200px) {
+  .content {
+    font-size: 1em;
+  }
+
+  .arrow-black {
+    font-size: 1.75em;
+  }
+}
+
+@media (min-width: 1400px) {
   .arrow-black {
     font-size: 2em;
   }
