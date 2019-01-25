@@ -1,43 +1,70 @@
+#Experience {
+  color: #222222;
+}
+
+h2 {
+  font-family: Giveny, "Times New Roman", Times, serif;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.timeline-badge {
+  background-color: #222222;
+}
+
 @media (min-width: 992px) {
   #Experience {
     height: 100vh;
   }
 
   .content {
-    width: 100%;
-    position: absolute;
-    top: 150%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 50%;
+    transform: translate(0, -48%);
+    max-height: 75%;
+    overflow: auto;
+    scrollbar-width: thin;
+    font-size: 0.75em;
   }
 
-  .fas {
-    font-size: 1.33em;
-  }
-
-  .scroll-down {
-    position: absolute;
-    left: 50%;
-    bottom: -295%;
-    transform: translate(-50%, -50%);
+  .content h2 {
+    font-size: 3em;
   }
 
   .scroll-up {
     position: absolute;
     left: 50%;
-    bottom: -215%;
+    bottom: -214%;
+    transform: translate(-50%, -50%);
+  }
+
+  .scroll-down {
+    position: absolute;
+    left: 50%;
+    bottom: -298%;
     transform: translate(-50%, -50%);
   }
 
   .arrow-black {
-    color: black;
+    color: #222222;
+    font-size: 1.33em;
     text-decoration: none;
     outline: 0;
   }
 }
 
 @media (min-width: 1200px) {
-  .fas {
+  .content {
+    font-size: 1em;
+  }
+
+  .arrow-black {
+    font-size: 1.75em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .arrow-black {
     font-size: 2em;
   }
 }

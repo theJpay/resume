@@ -1,36 +1,81 @@
+#Education {
+  background: url(../../assets/kelli-tungay-324329-unsplash-small.jpg) no-repeat
+    left center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+  color: #222222;
+}
+
+.carousel-item {
+  min-height: 25em;
+}
+
+h2 {
+  font-family: Giveny, "Times New Roman", Times, serif;
+  font-size: 2.5em;
+  text-align: center;
+}
+
 @media (min-width: 992px) {
   #Education {
     height: 100vh;
   }
 
   .content {
-    width: 100%;
-    position: absolute;
-    top: 150%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+    max-height: 75%;
+    overflow: auto;
+    scrollbar-width: thin;
+    font-size: 0.75em;
   }
 
-  .fas {
-    font-size: 1.33em;
+  .content h2 {
+    font-size: 2.5em;
   }
 
   .scroll-up {
     position: absolute;
     left: 50%;
-    bottom: -315%;
+    bottom: -314%;
     transform: translate(-50%, -50%);
   }
 
   .arrow-black {
-    color: black;
+    color: #222222;
+    font-size: 1.33em;
     text-decoration: none;
     outline: 0;
   }
 }
 
 @media (min-width: 1200px) {
-  .fas {
+  #Education {
+    background: url(../../assets/kelli-tungay-324329-unsplash.jpg) no-repeat
+      left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .content h2 {
+    font-size: 3em;
+  }
+
+  .arrow-black {
+    font-size: 1.75em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .arrow-black {
     font-size: 2em;
   }
 }
