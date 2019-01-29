@@ -13,12 +13,12 @@
 }
 
 @font-face {
-  font-family: Poly;
-  src: url(assets/fonts/Poly.otf);
+  font-family: Alice;
+  src: url(assets/fonts/Alice.ttf);
 }
 
 body {
-  font-family: Poly, "Times New Roman", Times, serif;
+  font-family: Alice, "Times New Roman", Times, serif;
   padding: 0;
 }
 
