@@ -66,6 +66,10 @@ h2 {
     background-size: cover;
   }
 
+  .content {
+    font-size: 1em;
+  }
+
   .content h2 {
     font-size: 3em;
   }
